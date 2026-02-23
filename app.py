@@ -80,4 +80,4 @@ def handle_message(event):
     api_instance.reply_message(reply_message_request)
 
 if __name__ == "__main__":
-    app.run()
+    app.run(host="0.0.0.0", port=8000)
